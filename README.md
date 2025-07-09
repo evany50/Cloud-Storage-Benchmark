@@ -9,7 +9,7 @@ Benchmarks upload/download performance across multiple cloud storage providers:
 Measures transfer speeds for different file sizes and generates comparative visualizations.
 
 ## Configuration
-Edit the endpoint, bucket name, access key, secret key and region for each provider.
+1. Edit the endpoint, bucket name, access key, secret key and region for each provider.
  ```python
    PROVIDERS = {
        'b2': {  # Backblaze B2
@@ -19,4 +19,8 @@ Edit the endpoint, bucket name, access key, secret key and region for each provi
            'secret_key': 'your_secret_key_here',                  # Your secret key
            'region': 'us-east-005'                                # Your bucket's region
        }
-
+```
+2. Install dependencies:
+```bash
+pip install "boto3==1.24.96" "botocore==1.27.96"
+```
