@@ -1,7 +1,7 @@
 # Cloud-Storage-Benchmark
 
 ## Overview
-Benchmarks upload/download performance across multiple cloud storage providers:
+A benchmarking tool to measure upload/download performance across multiple cloud storage providers:
 - Backblaze B2
 - Cloudflare R2 
 - IBM Cloud Object Storage
